@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #999999;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+main {
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pizzas {
+  text-align: center;
+
+  display: grid;
+  width: 90vw;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  color: #1a1a1a;
+}
+
+.pizzaList {
+  width: 90vw;
+}
+
+.pizza {
+  display: flex;
+  flex-direction: column;
+  background: #04b453;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #04b453 0%, #09f961 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #04b453 0%, #09f961 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #04b453 0%, #09f961 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04b453', endColorstr='#09f961', GradientType=0);
+  /* IE6-9 */
+  border-radius: 55px;
+  opacity: 1;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.pizzaListItem {
+  background: #0482b4;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #0482b4 0%, #09c9f9 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #0482b4 0%, #09c9f9 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #0482b4 0%, #09c9f9 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0482b4', endColorstr='#09c9f9', GradientType=0);
+  /* IE6-9 */
+  border-radius: 10px;
+  margin: 50px;
+  width: 100%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5)
+}
+
+img {
+  border-radius: 50px 50px 0px 0px;
+}
+
+h2 {
+  line-height: 2em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+h4 {
+  line-height: 2em;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.grid {
+  background: #04b453;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #04b453 0%, #09f961 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #04b453 0%, #09f961 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #04b453 0%, #09f961 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04b453', endColorstr='#09f961', GradientType=0);
+  /* IE6-9 */
+}
+
+.list {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0482b4+0,09c9f9+100 */
+  background: #0482b4;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #0482b4 0%, #09c9f9 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #0482b4 0%, #09c9f9 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #0482b4 0%, #09c9f9 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0482b4', endColorstr='#09c9f9', GradientType=0);
+  /* IE6-9 */
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+  align-self: center;
+}
+
+.priceAndCaloriesGrid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
+}
